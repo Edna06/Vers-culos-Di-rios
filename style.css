@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+
+text-align: center;
+background: url(./img/Perseverança.jpg) no-repeat;
+background-size: 100%;
+
+}
+
+
+
+#container {
+
+  margin-top: 5%;
+  padding: 40px 40px 5px;
+  width: 80%;
+  max-width: 800px;
+
+  margin-inline: auto; 
+  /* substitui o margin-left e  o margin-right */
+
+
+  border-radius: 20px;
+  background: hsla(22, 91%, 71%, 0.377);
+}
+
+#container:hover {
+  background-color: hsla(22, 91%, 71%, 0.501);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+h1, p {
+font-family: sans-serif;
+}
+
+p {
+color: rgb(6, 4, 1);
+}
+
+h1 {
+  color: white;
+font-size: 5rem;
+
+text-shadow: red -2px 0,
+               cyan 2px 0;
+} 
+
+p {
+  font-size: 1.6rem;
+  opacity: 0.7;
+  margin-top: 14px;
+  margin-bottom: 40px;
+
+  font-weight: 800;
+}
+
+ button {
+  display: block;
+  width: 60%;
+
+  margin-left: 21%;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+button {
+  background: rgb(185, 97, 60);
+  border: none;
+
+  color: white;
+  font-weight: 800;
+  font-size: 17px;
+
+  cursor: pointer;
+  transition: filter .7s;
+}
+
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+#resposta {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+#resposta:hover {
+  transition: opacity 1s;
+  background: hsla(0, 0%, 97%, 0.787);
+  transition: 0.5s;
+  transition-delay: .7s;
+}
+
+#resposta div {
+  opacity: 0.7;
+  font-size: 17px;
+  line-height: 1.6px ;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+
+footer .redes {
+  width: 180px;
+  height: 47px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 46%;
+  margin-top: 4% ;
+
+  font-size: 27px;
+}
+
+
+
+footer .icon:hover{
+font-size: 36px;
+transition: 0.5s;
+}
+
+footer .icon a{
+  text-decoration: none;
+  color: rgb(185, 97, 60);
+}
